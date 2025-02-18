@@ -1,4 +1,4 @@
-﻿; Extra vars - Not in INI
+; Extra vars - Not in INI
 Global rxNum := "(\d+\.?\d*)"
 Global Controller := {"Btn":{}}
 Global Controller_Active := 0
@@ -403,6 +403,7 @@ Global 1080_HealthBarStr := "|<1080 Overhead Health Bar>0x201614@0.99$106.Tzzzzz
 	, 1440_HealthBarStr := "|<1440 Overhead Health Bar>0x190D11@0.98$138.TzzzzzzzzzzzzzzzzzzzzzyU"
 	, 1440_HealthBarStr_Alt := "|<1440 OHB alt>*58$71.zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzw"
 	, 1050_HealthBarStr := "|<1050 Overhead Health Bar>0x221415@0.98$104.Tzzzzzzzzzzzzzzzzc"
+	, 2160_HealthBarStr := "|<2160 Overhead Health Bar>0x221415@0.99$210.TzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyU"
 	, OHBStrW := StrSplit(StrSplit(1080_HealthBarStr, "$")[2], ".")[1]
 
 	, 2160_SellItemsStr := "|<2160 Sell Items>0xE3D7A6@1.00$71.00000001k3U000000003U70003y000070C000AD0000C0Q000U60000Q0s003040000s1k006000001k3U00A000003U7000M000w070C000s007S0C0Q001s00MC0Q0s001s01UA0s1k001w020Q1k3U001w0A0M3U70001y0M0k70C0000y1rzUC0Q0000y3U00Q0s0000w7000s1k0000wC001k3U0000sQ003U700001ks0070C00003Uk00C0Q000071k00Q0s0000A3k20s1k0040k3k81k3U007z03zU3U70007s01y070C0000000000000000000000000000000000000000000000000000000000000000000000004"
@@ -417,6 +418,7 @@ Global 1080_HealthBarStr := "|<1080 Overhead Health Bar>0x201614@0.99$106.Tzzzzz
 	, 1050_StashStr := "|<1050 Stash>*102$56.zzzzzzzzzzzUzzzzzzzzn7zzzzzzzwv0DbsQwTzDk1lw3D7zkzXwDBnlzy7syHnwwTzkyDYwD07zz7bv7Vk1zzttw1yAwTzySTCDnD7zn7bbnQnlzw3stwkQwTznzzzzTzzzzzzzzzzzU"
 	, 768_StashStr := "|<768 Stash>#208@0.49$32.T00007k00033wsxXwACNMrX7b6AQlgxz3AT7MsnAsqBsn7xXU"
 
+	, 2160_SkillUpStr := "|<2160 Skill Up>*94$15.3y0Tk3y7zzzzzzzzzzzzzzzzz3y0Tk3y4"
 	, 1440_SkillUpStr := "|<1440 Skill Up>0xF6CB08@0.48$11.wTsw0000000wTsy"
 	, 1080_SkillUpStr := "|<1080 Skill Up>0xAA6204@0.66$9.sz7ss0000sz7sw"
 	, 1050_SkillUpStr := "|<1050 Skill Up>**50$12.HoOkGY2VyzU1yzmX2VGU6U7kU"
